@@ -9,7 +9,7 @@ def transliterate_text(text):
     return ' '.join(transliterated_tokens)
 
 # Example usage
-input_text = "maza jevan jhal ahe"
+input_text = "maza jevan jhal ahe."
 output_text = transliterate_text(input_text)
 # print(f"Original: {input_text}")
 # print(f"Transliterated: {output_text.encode('utf-8').decode('utf-8')}")
